@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(209, 85, 41);
+    font-family: "Trirong", serif;
+}
+.blocks{
+    display: flex;
+    position: absolute;
+    top: 5rem;
+    left: 13rem;
+    border-radius: 7px 7px 7px 7px;
+    background-color:rgb(242, 139, 101) ;
+}
+.block-0{
+    /* background: rgb(240, 161, 132); */
+    height: 28rem;
+    width: 29rem;
+    border-radius: 7px 0px 0px 7px;
+}
+.block-1{
+    background: rgb(242, 139, 101);
+    height: 28rem;
+    width: 29rem;
+    border-radius: 0 7px 7px 0;
+}
+.player--active{
+    background: rgb(240, 161, 132) ;
+}
+.player-one{
+    position: absolute;
+    top: 6rem;
+    left: 10rem;
+    font-size: 2rem;
+}
+.player-two{
+    position: absolute;
+    top: 6rem;
+    right: 10rem;
+    font-size: 2rem;
+}
+.play{
+    position: absolute;
+    top: 8rem;
+    left: 36rem;
+    z-index: 10;
+    margin: 0;
+    width: 11rem;
+    font-size: 20px;
+    border-radius: 4rem;
+    background: antiquewhite;
+    border: none;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.current-ones{
+    position: absolute;
+    top: 20rem;
+    left: 9rem;
+    background: antiquewhite;
+    width: 8rem;
+    height: 4rem;
+    display: flex;
+    padding: 1rem 2rem 2rem 2rem;
+    border: none; 
+    border-radius: 1rem;
+    background: chocolate;
+    color: antiquewhite;
+}
+.current-two{
+    position: absolute;
+    top: 20rem;
+    right: 9rem;
+    background: antiquewhite;
+    width: 8rem;
+    height: 4rem;
+    display: flex;
+    padding: 1rem 2rem 2rem 2rem;
+    border: none; 
+    border-radius: 1rem;
+    background: chocolate;
+    color: antiquewhite;
+}
+.current-score1{
+    position: absolute;
+    top: 24rem;
+    left: 14rem;
+    color: antiquewhite;
+    z-index: 10;
+    font-size: 2rem;
+}
+
+.current-score2{
+    position: absolute;
+    top: 24rem;
+    left: 42rem;
+    color: antiquewhite;
+    font-size: 2rem;
+}
+.rolldies{
+    position: absolute;
+    top: 25rem;
+    left: 37rem;
+    z-index: 10;
+    border: none;
+    background: antiquewhite;
+    width: 9rem;
+    height: 2rem;
+    border-radius: 3rem;
+    font-size: 13px;
+    cursor: pointer;
+}
+.hold{
+    position: absolute;
+    top: 29rem;
+    left: 39rem;
+    z-index: 10;
+    border: none;
+    width: 6rem;
+    height: 2rem;
+    border-radius: 3rem;
+    background:antiquewhite;
+    cursor: pointer;
+}
+.tscore--0{
+    position: absolute;
+    top: 5rem;
+    left: 3rem;
+    font-weight: normal;
+    font-size: 4rem;
+    color: bisque;
+}
+.tscore--1{
+    position: absolute;
+    top: 5rem;
+    left: 3rem;
+    font-weight: normal;
+    font-size: 4rem;
+    color: bisque;
+}
+.dice-5{
+    z-index: 10;
+    position: absolute;
+    width: 6rem;
+    height: 5rem;
+    top: 15rem;
+    left: 39rem;
+}
+.hidden{
+    display: none;
+}
+
+.player--winnes{
+    background: black;
+}
